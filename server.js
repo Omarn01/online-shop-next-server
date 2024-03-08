@@ -46,6 +46,11 @@ app.get('/electricHobs', (req, res) => {
   console.log(req.url)
   res.status(200).json(electricHobs)
 })
+app.get('/electricHobs/:id', (req, res) => {
+  res
+    .status(200)
+    .json(electricHobs.data.filter(({ id }) => id == req.params.id))
+})
 
 app.listen(PORT, () => {
   try {

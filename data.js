@@ -105,11 +105,43 @@ export const electricHobs = {
   data: [
     {
       id: 1,
-      img: 'https://c.dns-shop.ru/thumb/st4/fit/200/200/86163cd5127221af4281044a63b69065/d489c9311092ae6bbf46d114b5e308b5ccfca6f4901c39c246df62abe4e287c7.jpg.webp',
-      title:
-        'Электрическая варочная поверхность DEXP 4M2CTYL/B [независимая, конфорок - 2 шт, панель - стеклокерамика, 3.2 кВт]',
+      img: [
+        'https://c.dns-shop.ru/thumb/st4/fit/200/200/86163cd5127221af4281044a63b69065/d489c9311092ae6bbf46d114b5e308b5ccfca6f4901c39c246df62abe4e287c7.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st4/fit/320/250/937bf3210f834c5a5984151a8df8247f/1af050437f0666872bcf874160ee9dea13e14361d1a5a64d9c9d50e7fc7e49a1.jpg',
+        'https://c.dns-shop.ru/thumb/st1/fit/320/250/64fdbe6d514271bc009dec46b8f23b5f/cdff6386051e76563f249f9754411ded1987b8499227821daa8fb230817c0d5e.jpg',
+        'https://c.dns-shop.ru/thumb/st1/fit/320/250/496fb51557ec09dae7ddec8fdba41fa5/680037b6adb1880604e57693454fa936aa230eaa3022b4168355de2ffa2f75b6.jpg',
+        'https://c.dns-shop.ru/thumb/st1/fit/320/250/901fb34047a781e70fe1ca8ad81cc3b4/e96c66a621175097c1a294b1eef0c8612dc4819938a4c357b455a3de7b1ab44b.jpg',
+      ],
+      preview: [
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/4530df2f575036dba250fee7b2ab23be/d884fa20d4bb3bde03ab937b92fe190ea9033e5ade5e20eedf41fcd7871487ee.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st4/fit/45/45/1d7acfa97cb2e48a0fbefbd6b153f24d/1af050437f0666872bcf874160ee9dea13e14361d1a5a64d9c9d50e7fc7e49a1.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/58442d31006e5bb83c1eb99dcdd20577/cdff6386051e76563f249f9754411ded1987b8499227821daa8fb230817c0d5e.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/1fe9658df1f3197aaf30bcb7020ce8a9/680037b6adb1880604e57693454fa936aa230eaa3022b4168355de2ffa2f75b6.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/63fc15ab0d3cb986eaf8dc8c11e7944c/e96c66a621175097c1a294b1eef0c8612dc4819938a4c357b455a3de7b1ab44b.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/e68b5118cd3c5a3f1731e5b603fd5c24/090144e28d1c53ae0c0d8e5e9c0f39792497cfbcc73d537829a59989c2d33b6a.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/011018ba7455d11b7f79331ab9cdb937/3e83b0aeed8a37fd6977969b3014a1fb4d914a263755b8016ab9ebb2207e7188.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/45/45/99bcb91482b965888756640d321af700/92da9e131a356210697bcf9671d67d6be05b9fff74dd2550b28509e0823e3a78.jpg.webp',
+      ],
+      bigImg: [
+        'https://c.dns-shop.ru/thumb/st4/fit/500/500/8aae7cd5a1415e25cd26a20229964ac9/d489c9311092ae6bbf46d114b5e308b5ccfca6f4901c39c246df62abe4e287c7.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st4/fit/500/500/b9af22479374e7891bb9b07221562096/1af050437f0666872bcf874160ee9dea13e14361d1a5a64d9c9d50e7fc7e49a1.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/22e7362135f59faf6b8fac83fc59da4a/cdff6386051e76563f249f9754411ded1987b8499227821daa8fb230817c0d5e.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/44a2780653989b4a2c588cfc5e2b0638/680037b6adb1880604e57693454fa936aa230eaa3022b4168355de2ffa2f75b6.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/6098a68f7644205c426966c9eeac05f0/e96c66a621175097c1a294b1eef0c8612dc4819938a4c357b455a3de7b1ab44b.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/21b6714d3890651e7b0fe29d07b42b68/090144e28d1c53ae0c0d8e5e9c0f39792497cfbcc73d537829a59989c2d33b6a.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/a076ce579bf872cf8faa8990b2e1bafa/3e83b0aeed8a37fd6977969b3014a1fb4d914a263755b8016ab9ebb2207e7188.jpg.webp',
+        'https://c.dns-shop.ru/thumb/st1/fit/500/500/52142792427fd5465bfed5a81a049d77/92da9e131a356210697bcf9671d67d6be05b9fff74dd2550b28509e0823e3a78.jpg.webp',
+      ],
+      title: 'Электрическая варочная поверхность DEXP 4M2CTYL/B',
+      subtitle:
+        '[независимая, конфорок - 2 шт, панель - стеклокерамика, 3.2 кВт]',
+      count: 94,
       price: 6499,
       url: '/category/electricHobs/1',
+      moreData: {
+        sellerWarranty: '12 мес.',
+        manufacturerCountry: 'Китай',
+      },
       breadcrumbs: [
         {
           id: 1,
@@ -135,7 +167,9 @@ export const electricHobs = {
     },
     {
       id: 2,
-      img: 'https://c.dns-shop.ru/thumb/st4/fit/200/200/2e99a32dafe0f971a6e19ac73702b42f/1aacada98e4e2197cf107582f232c40b8b3b3f8e6a3423546fe6bfdd1b313f90.jpg.webp',
+      img: [
+        'https://c.dns-shop.ru/thumb/st4/fit/200/200/2e99a32dafe0f971a6e19ac73702b42f/1aacada98e4e2197cf107582f232c40b8b3b3f8e6a3423546fe6bfdd1b313f90.jpg.webp',
+      ],
       title:
         'Электрическая варочная поверхность DEXP EH-C2NSMA/B [независимая, конфорок - 2 шт, панель - стеклокерамика, 3.3 кВт]',
       price: 6699,
