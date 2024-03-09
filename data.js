@@ -135,13 +135,28 @@ export const electricHobs = {
       title: 'Электрическая варочная поверхность DEXP 4M2CTYL/B',
       subtitle:
         '[независимая, конфорок - 2 шт, панель - стеклокерамика, 3.2 кВт]',
+      companyImg:
+        'https://c.dns-shop.ru/thumb/st4/fit_width/110/110/bd6b1443789bc340cb938f3864afc465/97252067c06a393acd28c636b743004fab8398416a01214731e8a7f62307b4ea.png',
       count: 94,
       price: 6499,
       url: '/category/electricHobs/1',
       moreData: {
         sellerWarranty: '12 мес.',
         manufacturerCountry: 'Китай',
+
+        type: 'электрическая варочная поверхность',
+        model: 'Samsung NZ64T3516BK/WT',
       },
+      reviews: [1],
+      descriptionReviewImg:
+        'https://c.dns-shop.ru/thumb/st4/fit/760/456/7ab7530afb1a8bcfe45bf2571cbde59b/q93_c5ebf5f225f938a131c6298afd49b14bf65fd80f90e06eff1bb07a910e1cab0a.jpg',
+      descriptionReviewUrl:
+        'https://club.dns-shop.ru/review/t-382-varochnyie-paneli-elektricheskie/87412-obzor-elektricheskaya-varochnaya-poverhnost-dexp-4m2ctyl-b-posle-2/',
+      descriptionReviewTitle:
+        'Обзор электрическая варочная поверхность DEXP 4M2CTYL/B после 2 лет эксплуатации',
+
+      description:
+        'Электрическая варочная поверхность DEXP 4M2CTYL/B отличается от прочих подобных устройств компактными размерами и наличием 2 конфорок для приготовления пищи. Это позволяет разместить ее даже на самой маленькой кухне. Устройство устанавливается автономно от духового шкафа. Оно состоит из стеклокерамической поверхности. Каждая конфорка оснащена индикатором остаточного тепла: это позволяет доводить блюдо до необходимой консистенции на выключенной плите. Регулировать мощность можно в пределах 9 уровней. Одна из конфорок является двухконтурной, это позволяет готовить на панели в кастрюлях и воках крупного диаметра. Минимальный диаметр посуды, которую можно использовать на плите, составляет 16.5 см. Для безопасности электрическая варочная поверхность DEXP 4M2CTYL/B оснащена таймером конфорок, функцией защитного отключения и кнопкой блокировки работы.',
       breadcrumbs: [
         {
           id: 1,
@@ -156,7 +171,7 @@ export const electricHobs = {
         {
           id: 3,
           title: 'Электрические варочные панели',
-          url: '/catalog/hobs',
+          url: '/category/electricHobs',
         },
         {
           id: 4,
@@ -196,3 +211,21 @@ export const electricHobs = {
     },
   ],
 }
+
+export const reviews = [
+  {
+    id: 1,
+    level: 1,
+    name: 'Пришелец TSW-238U',
+    real: false,
+    date: '01.02.2024',
+    rating: 4.2,
+    product: '',
+    termUse: 'менее года',
+    dignity: 'Good',
+    flaws: 'Bad',
+    comment: 'comment',
+    likes: 1,
+    dislikes: 3,
+  },
+]
