@@ -8,6 +8,7 @@ import {
   categoryPhonesAndPhotos,
   categoryAppliance,
   reviews,
+  discussions,
 } from './data.js'
 
 const app = express()
@@ -58,6 +59,16 @@ app.get('/reviews/:id', (req, res) => {
   })
 
   res.status(200).json(reviewsArr)
+})
+
+app.get('/discussion/:id', (req, res) => {
+  const discussionArr = electricHobs.data[req.params.id - 1].discussions.map(
+    id => {
+      return discussions.find(discussion => discussion.id === id)
+    }
+  )
+
+  res.status(200).json(discussionArr)
 })
 
 app.listen(PORT, () => {
